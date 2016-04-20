@@ -6,7 +6,7 @@ function OSCSender(options) {
     if (!(this instanceof OSCSender))
         return new OSCSender(options);
 
-    var config = _.defaults(options.osc || {}, {});
+    var config = _.defaults(options || {}, {});
 
     // osc sender
     this._udpPort = new osc.UDPPort({
@@ -83,6 +83,10 @@ OSCSender.prototype = {
                 value: 0
             }]
         }, this._host, this._port);
+    },
+
+    close: function () {
+      this._udpPort.close();
     }
 }
 
