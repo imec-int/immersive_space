@@ -29,7 +29,7 @@ OSCSender.prototype = {
 
       var r = Math.sqrt(x * x + y * y + z * z);
       var theta = Math.atan2(y, x); //This takes y first
-      var phi = Math.atan2(Math.sqrt(x * x + y * y), z);
+      var phi = Math.atan2(z, Math.sqrt(x * x + y * y));
 
       return {
           r: r,
