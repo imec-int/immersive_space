@@ -23,27 +23,25 @@ function OSCSender(options) {
 }
 
 OSCSender.prototype = {
-      //Convert coordinates
+    //Convert coordinates
     _cartesian2Spherical: function (c) {
-      var x = c.x, y = c.y, z = c.z;
+        var x = c.x,
+            y = c.y,
+            z = c.z;
 
-      var r = Math.sqrt(x * x + y * y + z * z);
-      var theta = Math.atan2(y, x); //This takes y first
-      var phi = Math.atan2(z, Math.sqrt(x * x + y * y));
+        var r = Math.sqrt(x * x + y * y + z * z);
+        var theta = Math.atan2(y, x); //This takes y first
+        var phi = Math.atan2(z, Math.sqrt(x * x + y * y));
 
-      return {
-          r: r,
-          theta: theta,
-          phi: phi
-      };
+        return {
+            r: r,
+            theta: theta,
+            phi: phi
+        };
     },
-    send: function (channel, position) {
-      console.log('OSC: Sending %d,%d,%d over channel %d', position.x, position.y, position.z, channel);
-      this.sendPolar(channel, this._cartesian2Spherical(position));
-    },
-    sendPolar: function (channel, position) {
-        // Send an OSC message to, say, SuperCollider
-        this._udpPort.send({
+
+    _createMessage: function (position, channel) {
+        return {
             address: this._address,
             args: [{
                 type: "i",
@@ -82,11 +80,35 @@ OSCSender.prototype = {
                 type: "i",
                 value: 0
             }]
-        }, this._host, this._port);
+        };
+    },
+
+    _createBundle: function (positions) {
+        return {
+            timeTag: osc.timeTag(0),
+            packets: positions.map(this._createMessage, this)
+        };
+    },
+
+    send: function (position, channel) {
+        console.log('C %d: Sending %s', channel, JSON.stringify(position));
+        this.sendSpherical(this._cartesian2Spherical(position), channel);
+    },
+
+    sendSpherical: function (position, channel) {
+        this._udpPort.send(this._createMessage(position, channel), this._host, this._port);
+    },
+
+    sendBundled: function (positions) {
+        this.sendBundledSpherical(positions.map(this._cartesian2Spherical));
+    },
+
+    sendBundledSpherical: function (positions) {
+        this._udpPort.send(this._createBundle(positions), this._host, this._port);
     },
 
     close: function () {
-      this._udpPort.close();
+        this._udpPort.close();
     }
 }
 

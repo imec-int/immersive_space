@@ -7,7 +7,13 @@ var midi = require('midi'),
 var args = process.argv.slice(2);
 
 // Read config
-var config = JSON.parse(fs.readFileSync(args[0] || 'config.json', 'utf8'));
+var config;
+try {
+  config = JSON.parse(fs.readFileSync(args[0] || 'config.json', 'utf8'));
+} catch (error) {
+  console.log('No config.json given or found');
+  process.exit(1);
+}
 
 // Setup OSC to IOSONO
 var oscSender = new OSCSender(config.osc);
@@ -16,20 +22,29 @@ var oscSender = new OSCSender(config.osc);
 var midiReceiver = new MIDIReceiver(config.midi);
 
 // Setup position to send
-var position = {x: 0, y: 0, z: 0}, ranges = config.midi.ranges;
+var positions = [], ranges = config.midi.ranges;
+for (var i = 0; i < 16; i++) {
+  positions[i] = {x: 0, y: 0, z: 0};
+}
+
+midiReceiver.on('clock', function (deltaTime) {
+  if (config.bundled){
+      oscSender.sendBundled(positions);
+  } else {
+      positions.forEach(oscSender.send, oscSender);
+  }
+});
 
 midiReceiver.on('noteOn', function (channel, key, velocity) {
   console.log('C %d: Note on %d with velocity %d', channel, key, velocity);
 
   // Calculate X percentage
   var pX = getPercentageInBounds(key, ranges.x);
-  position.x = config.width * pX;
+  positions[channel].x = config.width * pX;
 
   // Calculate Y percentage
   var pY = getPercentageInBounds(velocity, ranges.y);
-  position.y = config.height * pY;
-
-  oscSender.send(channel, position);
+  positions[channel].y = config.height * pY;
 });
 
 midiReceiver.on('channelPressure', function (channel, pressure) {
@@ -37,9 +52,7 @@ midiReceiver.on('channelPressure', function (channel, pressure) {
 
   // Calculate Z percentage
   var pZ = getPercentageInBounds(pressure, ranges.z);
-  position.z = config.depth * pZ;
-
-  oscSender.send(channel, position);
+  positions[channel].z = config.depth * pZ;
 });
 
 function getPercentageInBounds(val, range) {

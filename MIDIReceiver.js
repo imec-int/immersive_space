@@ -19,7 +19,7 @@ function MIDIReceiver(options) {
 
     var self = this;
     input.on('message', function (deltaTime, message) {
-        console.log('Clock: ' + deltaTime);
+        self.emit('clock', deltaTime);
 
         var status = message[0],
             action = status & 0xF0,
@@ -28,6 +28,9 @@ function MIDIReceiver(options) {
         if (actions[action])
             actions[action].call(self, channel, message[1], message[2]);
     });
+
+    // show clock
+    input.ignoreTypes(true, false, true);
 
     // Create a virtual input port.
     input.openVirtualPort(options.name || 'NodeJS MIDI Receiver');
