@@ -20,12 +20,13 @@ try {
 }
 
 // Setup parameters
-var measurements = config.measurements || {
+var iosonoConfig = config.iosono || {},
+    measurements = iosonoConfig.measurements || {
         x: 10,
         y: 10,
         z: 10
     },
-    channels = config.channels || 16,
+    channels = iosonoConfig.channels || 16,
     midiConfig = config.midi || {},
     mapping = midiConfig.mapping || {
         noteOn: {
@@ -44,10 +45,10 @@ var measurements = config.measurements || {
     };
 
 // Setup OSC to IOSONO
-var oscSender = new OSCSender(config.iosono);
+var oscSender = new OSCSender(iosonoConfig);
 
 // Setup MIDI
-var midiReceiver = new MIDIReceiver(config.midi);
+var midiReceiver = new MIDIReceiver(midiConfig);
 
 // setup positions
 var positions = [];
@@ -88,7 +89,7 @@ _.forIn(mapping, function (evtMap, evt) {
     });
 });
 
-console.log('midi2iosono ready and running...')
+console.log('midi2iosono ready and running as MIDI device: %s', midiReceiver.name)
 
 function getPercentageInBounds(val, range) {
     var min = range[0],

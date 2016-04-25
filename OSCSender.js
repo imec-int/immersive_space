@@ -9,13 +9,13 @@ function OSCSender(options) {
 
     // osc sender
     this._udpPort = new osc.UDPPort({
-        localAddress: config.localAddress,
-        localPort: config.localPort
+        localAddress: config.localAddress || '0.0.0.0',
+        localPort: config.localPort || 5001
     });
 
-    this._address = config.address;
-    this._host = config.host;
-    this._port = config.port;
+    this._address = config.address || '/iosono';
+    this._host = config.host || '192.168.0.1';
+    this._port = config.port || 4001;
 
     // Open the socket.
     this._udpPort.open();

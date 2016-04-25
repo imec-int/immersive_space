@@ -33,7 +33,8 @@ function MIDIReceiver(options) {
     input.ignoreTypes(true, false, true);
 
     // Create a virtual input port.
-    input.openVirtualPort(options.name || 'NodeJS MIDI Receiver');
+    this.name =  options.name || 'IOSONO MIDI Receiver';
+    input.openVirtualPort(this.name);
 }
 util.inherits(MIDIReceiver, EventEmitter);
 
