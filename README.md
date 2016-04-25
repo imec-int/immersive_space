@@ -21,7 +21,7 @@ Before running *midi2iosono*, a configuration JSON file needs to be prepared.
 | parameter         | type      | description | default |
 |-------------------|-----------|-------------|---------|
 | `measurements`    | `Object`  | An object containing the measurements of the IOSONO speaker setup, specified for each axis. Each value is specified in meters. | `{ "x": 10, "y": 10, "z": 10 }` |
-| `bundled`         | `boolean` | When `true`, all channel positions are send a OSC bundle. | `false`|
+| `bundled`         | `boolean` | When `true`, all channel positions are sent as a OSC bundle. | `false`|
 | `channels`         | `Number` | The number of channels to send to iosono, starting from 0. | `16`|
 | `host`         | `String` | The IP address of the IOSONO. | `"192.168.0.1"`|
 | `port`         | `String` | The port of the IOSONO. | `4001`|
@@ -105,3 +105,4 @@ You can simply run *midi2iosono* in bash.
 `./midi2iosono [config.json]`
 
 The config file can be supplied as a command line parameter or put as `config.json` in the working directory.
+If all goes well, you should see `midi2iosono ready and running as MIDI device: IOSONO MIDI Receiver` in your terminal.
