@@ -1,7 +1,6 @@
 var osc = require('osc'),
     _ = require('lodash');
 
-
 function OSCSender(options) {
     if (!(this instanceof OSCSender))
         return new OSCSender(options);
@@ -91,7 +90,6 @@ OSCSender.prototype = {
     },
 
     send: function (position, channel) {
-        console.log('C %d: Sending %s', channel, JSON.stringify(position));
         this.sendSpherical(this._cartesian2Spherical(position), channel);
     },
 

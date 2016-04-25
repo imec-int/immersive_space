@@ -65,39 +65,39 @@ Pitch Bend                    Ex      MSB                 LSB
 
 MIDIReceiver.prototype._noteOff = function (channel, key, velocity) {
     console.log('C %d: Note off %d with velocity %d', channel, key, velocity);
-    this.emit('noteOff', channel, key, velocity);
+    this.emit('noteOff', channel, { key: key, velocity: velocity });
 };
 
 MIDIReceiver.prototype._noteOn = function (channel, key, velocity) {
     console.log('C %d: Note on %d with velocity %d', channel, key, velocity);
-    this.emit('noteOn', channel, key, velocity);
+    this.emit('noteOn', channel, { key: key, velocity: velocity });
 };
 
 MIDIReceiver.prototype._polyphonicKeyPressure = function (channel, key, pressure) {
     console.log('C %d: Polyphonic pressure %d on key %d', channel, pressure, key);
-    this.emit('polyphonicKeyPressure', channel, key, pressure);
+    this.emit('polyphonicKeyPressure', channel, { key: key, pressure: pressure });
 };
 
 MIDIReceiver.prototype._controlChange = function (channel, number, value) {
     console.log('C %d: Control change %d, %d', channel, number, value);
-    this.emit('controlChange', channel, number, value);
+    this.emit('controlChange', channel, { number: number, value: value });
 };
 
 MIDIReceiver.prototype._programChange = function (channel, program) {
     console.log('C %d: Program change to %s', channel, program);
-    this.emit('programChange', channel, program);
+    this.emit('programChange', channel, { program: program });
 };
 
 MIDIReceiver.prototype._channelPressure = function (channel, pressure) {
     console.log('C %d: Channel pressure to %d', channel, pressure);
-    this.emit('channelPressure', channel, pressure);
+    this.emit('channelPressure', channel, { pressure: pressure });
 };
 
 MIDIReceiver.prototype._pitchBend = function (channel, msb, lsb) {
-    var bend = msb * 255 + lsb;
-    console.log('C %d: Pitch bend %d %d', channel, bend);
+    var bend = (msb << 8 ) | (lsb & 0xff);
+    console.log('C %d: Pitch bend %d', channel, bend);
 
-    this.emit('pitchBend', channel, bend);
+    this.emit('pitchBend', channel, { bend: bend });
 };
 
 MIDIReceiver.prototype.close = function () {

@@ -1,0 +1,102 @@
+#!/usr/bin/env node
+
+const midi = require('midi'),
+    OSCSender = require('./OSCSender.js'),
+    MIDIReceiver = require('./MIDIReceiver.js'),
+    fs = require('fs'),
+    _ = require('lodash');
+
+// Get command line parameters
+var args = process.argv.slice(2);
+
+// Read config
+var config;
+try {
+    config = JSON.parse(fs.readFileSync(args[0] || './config.json', 'utf8'));
+} catch (error) {
+    console.log('No config file given or found');
+    console.log('Details: %s', error);
+    process.exit(1);
+}
+
+// Setup parameters
+var measurements = config.measurements || {
+        x: 10,
+        y: 10,
+        z: 10
+    },
+    channels = config.channels || 16,
+    midiConfig = config.midi || {},
+    mapping = midiConfig.mapping || {
+        noteOn: {
+            key: {
+                x: [60, 80]
+            },
+            velocity: {
+                y: [0, 100]
+            }
+        },
+        channelPressure: {
+            pressure: {
+                z: [0, 100]
+            }
+        }
+    };
+
+// Setup OSC to IOSONO
+var oscSender = new OSCSender(config.iosono);
+
+// Setup MIDI
+var midiReceiver = new MIDIReceiver(config.midi);
+
+// setup positions
+var positions = [];
+for (var i = 0; i < channels; i++) {
+    console.log('Initalizing channel %d', i);
+    positions[i] = {
+        x: 0,
+        y: 0,
+        z: 0
+    };
+}
+
+// Send position on each clock signal
+midiReceiver.on('clock', function (deltaTime) {
+    positions.forEach(function (position, channel) {
+        console.log('C %d: Sending %s', channel, JSON.stringify(position))
+    });
+    if (config.bundled) {
+        oscSender.sendBundled(positions);
+    } else {
+        positions.forEach(oscSender.send, oscSender);
+    }
+});
+
+// For each event in mapping, create
+_.forIn(mapping, function (evtMap, evt) {
+    console.log('Initalizing MIDI event %s', evt);
+    // For each parameter in event map, create event
+    midiReceiver.on(evt, function (channel, data) {
+        if (positions[channel]) {
+            _.forIn(evtMap, function (axisMap, parameter) {
+                // For each parameter, set the positon according to range and axis
+                _.forIn(axisMap, function (range, axis) {
+                    positions[channel][axis] = measurements[axis] * getPercentageInBounds(data[parameter], range);
+                });
+            });
+        }
+    });
+});
+
+console.log('midi2iosono ready and running...')
+
+function getPercentageInBounds(val, range) {
+    var min = range[0],
+        max = range[1];
+
+    var p = val - min; // lower bound
+    p = p < 0 ? 0 : p;
+    p = p > (max - min) ? (max - min) : p;
+
+    return p / (max - min);
+}
