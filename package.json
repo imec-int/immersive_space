@@ -1,8 +1,8 @@
 {
-  "name": "midi2osc",
+  "name": "midi2iosono",
   "version": "1.0.0",
   "description": "",
-  "main": "midi2osc.js",
+  "main": "midi2iosono.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
