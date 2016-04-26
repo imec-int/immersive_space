@@ -98,7 +98,7 @@ MIDIReceiver.prototype._channelPressure = function (channel, pressure) {
 
 MIDIReceiver.prototype._pitchBend = function (channel, msb, lsb) {
     var bend = (msb << 7 ) | (lsb & 0xff);
-    console.log('C %d: Pitch bend %d', channel, bend);
+    console.log('C %d: Pitch bend %d + %d = %d', bend);
 
     this.emit('pitchBend', channel, { bend: bend });
 };

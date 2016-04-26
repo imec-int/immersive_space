@@ -30,16 +30,16 @@ var iosonoConfig = config.iosono || {},
     midiConfig = config.midi || {},
     mapping = midiConfig.mapping || {
         noteOn: {
-            key: {
-                x: [60, 80]
+            x: {
+                key: [60, 80]
             },
-            velocity: {
-                y: [0, 100]
+            y: {
+                velocity: [0, 100]
             }
         },
         channelPressure: {
-            pressure: {
-                z: [0, 100]
+            z: {
+                pressure: [0, 100]
             }
         }
     };
@@ -51,15 +51,12 @@ var oscSender = new OSCSender(iosonoConfig);
 var midiReceiver = new MIDIReceiver(midiConfig);
 
 // setup positions
-var positions = [];
-for (var i = 0; i < channels; i++) {
-    console.log('Initalizing channel %d', i);
-    positions[i] = {
-        x: 0,
-        y: 0,
-        z: 0
-    };
-}
+console.log('Initalizing %d channels', channels);
+var positions = _.fill(Array(channels), {
+    x: 0,
+    y: 0,
+    z: 0
+});
 
 // Send position on each clock signal
 midiReceiver.on('clock', function (deltaTime) {
@@ -79,9 +76,10 @@ _.forIn(mapping, function (evtMap, evt) {
     // For each parameter in event map, create event
     midiReceiver.on(evt, function (channel, data) {
         if (positions[channel]) {
-            _.forIn(evtMap, function (axisMap, parameter) {
+            _.forIn(evtMap, function (cMap, axis) {
                 // For each parameter, set the positon according to range and axis
-                (data[parameter]) && _.forIn(axisMap, function (range, axis) {
+                _.forIn(cMap, function (range, parameter) {
+                  if (data[parameter])
                     positions[channel][axis] = measurements[axis] * getPercentageInBounds(data[parameter], range);
                 });
             });
