@@ -52,10 +52,12 @@ var midiReceiver = new MIDIReceiver(midiConfig);
 
 // setup positions
 console.log('Initalizing %d channels', channels);
-var positions = _.fill(Array(channels), {
+var positions = _.map(Array(channels), function () {
+  return {
     x: 0,
     y: 0,
     z: 0
+  }
 });
 
 // Send position on each clock signal
@@ -79,8 +81,7 @@ _.forIn(mapping, function (evtMap, evt) {
             _.forIn(evtMap, function (cMap, axis) {
                 // For each parameter, set the positon according to range and axis
                 _.forIn(cMap, function (range, parameter) {
-                  if (data[parameter])
-                    positions[channel][axis] = measurements[axis] * getPercentageInBounds(data[parameter], range);
+                  if (data[parameter]) setPosition(channel, axis, data[parameter], range);
                 });
             });
         }
@@ -88,6 +89,11 @@ _.forIn(mapping, function (evtMap, evt) {
 });
 
 console.log('midi2iosono ready and running as MIDI device: %s', midiReceiver.name)
+
+function setPosition(channel, axis, value, range) {
+  console.log('C %d: %s-position set to %d', channel, axis, value);
+  positions[channel][axis] = measurements[axis] * getPercentageInBounds(value, range) - ((axis !== 'z' ? measurements[axis] : 0) / 2);
+}
 
 function getPercentageInBounds(val, range) {
     var min = range[0],
