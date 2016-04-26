@@ -2,7 +2,7 @@
 
 ## Installing midi2iosono
 
-To install, please make sure [NodeJS](https://nodejs.org/en/) >= 4.0.0 and optionally (git)[https://git-scm.com/] are installed.
+To install, please make sure [NodeJS](https://nodejs.org/en/) >= 4.0.0 and optionally [git](https://git-scm.com) are installed.
 Run the following commands in bash:
 
 ```bash
@@ -81,12 +81,14 @@ A complete config example is given below.
         "name": "MIDI-2-IOSONO",
         "mapping": {
             "noteOn": {
-                "key": {
-                    "x": [24, 35]
-                },
                 "velocity": {
                     "y": [0, 100]
                 }
+            },
+            "controlChange": {
+              "12" : {
+                "x": [0, 100]
+              }
             },
             "pitchBend": {
                 "bend": {
