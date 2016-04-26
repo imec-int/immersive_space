@@ -59,10 +59,10 @@ OSCSender.prototype = {
                 value: position.r
             }, {
                 type: "f",
-                value: 0.75
+                value: 1
             }, {
                 type: "f",
-                value: 0.75
+                value: 1
             }, {
                 type: "f",
                 value: 0
