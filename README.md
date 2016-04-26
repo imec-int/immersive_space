@@ -49,7 +49,7 @@ MIDI event            | Parameters
 noteOff               | `key`, `velocity`
 noteOn                | `key`, `velocity`
 polyphonicKeyPressure | `key`, `pressure`
-controlChange         | This a special case, where the parameter is the sent control change `number`. For example, a control change message with number 13 will be `"13": { ... }`
+controlChange         | This a special case, where the parameter is the sent control change `number`. For example, a control change message with number 13 will be `"13": [ ... ]`
 programChange         | `number`
 channelPressure       | `pressure`
 pitchBend             | `bend`
