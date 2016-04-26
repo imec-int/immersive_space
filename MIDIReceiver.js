@@ -81,7 +81,9 @@ MIDIReceiver.prototype._polyphonicKeyPressure = function (channel, key, pressure
 
 MIDIReceiver.prototype._controlChange = function (channel, number, value) {
     console.log('C %d: Control change %d, %d', channel, number, value);
-    this.emit('controlChange', channel, { number: number, value: value });
+    var data = {};
+    data[number] = value;
+    this.emit('controlChange', channel, data);
 };
 
 MIDIReceiver.prototype._programChange = function (channel, program) {
@@ -95,7 +97,7 @@ MIDIReceiver.prototype._channelPressure = function (channel, pressure) {
 };
 
 MIDIReceiver.prototype._pitchBend = function (channel, msb, lsb) {
-    var bend = (msb << 8 ) | (lsb & 0xff);
+    var bend = (msb << 7 ) | (lsb & 0xff);
     console.log('C %d: Pitch bend %d', channel, bend);
 
     this.emit('pitchBend', channel, { bend: bend });

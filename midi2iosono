@@ -81,7 +81,7 @@ _.forIn(mapping, function (evtMap, evt) {
         if (positions[channel]) {
             _.forIn(evtMap, function (axisMap, parameter) {
                 // For each parameter, set the positon according to range and axis
-                _.forIn(axisMap, function (range, axis) {
+                (data[parameter]) && _.forIn(axisMap, function (range, axis) {
                     positions[channel][axis] = measurements[axis] * getPercentageInBounds(data[parameter], range);
                 });
             });

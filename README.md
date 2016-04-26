@@ -36,12 +36,12 @@ Before running *midi2iosono*, a configuration JSON file needs to be prepared.
 | `name`         | `String` | The name of the Virtual MIDI device. | `"IOSONO MIDI Receiver"`|
 | `mapping`         | `Object` | The mapping of MIDI events on 3D coordinates.  | `{ noteOn: { key: { x: [60, 80] }, velocity: { y: [0, 100] }}, channelPressure: { pressure: { z: [0, 100] }}}`|
 
-The `mapping` object is a cascade of objects, following the following pattern: 
-```json
-"<MIDI event>": { 
-    "<parameter>": { 
-        "<coordinate>": [<min_range>, <max_range>] 
-        } 
+The `mapping` object is a cascade of objects, following the following pattern:
+```
+"<MIDI event>": {
+    "<parameter>": {
+        "<coordinate>": [<min_range>, <max_range>]
+        }
     }
 ```
 Possible values for `<MIDI_event>` and associated `parameter` are:
@@ -51,7 +51,7 @@ Possible values for `<MIDI_event>` and associated `parameter` are:
 | noteOff         | `key`, `velocity` |
 | noteOn           | `key`, `velocity`|
 | polyphonicKeyPressure  |     `key`, `pressure` |
-| controlChange      |          `number`, `value` |
+| controlChange      |          This a special case, where the parameter is the sent control change `number`. For example, a control change message with number 13 will be `"13": { ... }` |
 | programChange       |         `number` |
 | channelPressure     |         `pressure` |
 | pitchBend           |         `bend` |
