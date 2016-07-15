@@ -1,0 +1,36 @@
+{
+    "iosono": {
+        "measurements": {
+            "x": 10,
+            "y": 10,
+            "z": 10
+        },
+        "bundled": true,
+        "channels": 8,  
+        "host": "192.168.1.10",
+        "port": 4243,
+        "localAddress": "0.0.0.0",
+        "localPort": 5001,
+        "address": "/iosono/renderer/version1/src"
+    },
+    "midi": {
+        "name": "MIDI-2-IOSONO",
+        "mapping": {
+            "noteOn": {
+              "y": {
+                "velocity": [0, 100]
+              }
+            },
+            "controlChange": {
+              "x": {
+                "12" : [0, 100]
+              }
+            },
+            "pitchBend": {
+               "z": {
+                 "bend": [0, 100]
+                }
+            }
+        }
+    }
+}
