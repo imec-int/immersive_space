@@ -5,7 +5,7 @@
             "y": 10,
             "z": 10
         },
-        "bundled": true,
+        "bundled": false,
         "channels": 8,  
         "host": "192.168.1.10",
         "port": 4243,

@@ -68,14 +68,15 @@ var positions = _.map(Array(channels), function () {
 midiReceiver.on('clock', function (deltaTime) {
     positions.forEach(function (position, channel) {
         console.log('C %d: Sending %s', channel, JSON.stringify(position))
-        wsSender.send(position, channel);
     });
-    
+
 
     if (config.bundled) {
         oscSender.sendBundled(positions);
     } else {
         positions.forEach(oscSender.send, oscSender);
+        positions.forEach(wsSender.send, wsSender);
+//         wsSender.send(position, channel);
     }
 });
 
