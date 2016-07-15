@@ -3,6 +3,7 @@
 const midi = require('midi'),
     OSCSender = require('./OSCSender.js'),
     MIDIReceiver = require('./MIDIReceiver.js'),
+    WSSender = require('./WSSender.js'),
     fs = require('fs'),
     _ = require('lodash');
 
@@ -50,6 +51,9 @@ var oscSender = new OSCSender(iosonoConfig);
 // Setup MIDI
 var midiReceiver = new MIDIReceiver(midiConfig);
 
+// Setup WS
+var wsSender = new WSSender();
+
 // setup positions
 console.log('Initalizing %d channels', channels);
 var positions = _.map(Array(channels), function () {
@@ -64,7 +68,10 @@ var positions = _.map(Array(channels), function () {
 midiReceiver.on('clock', function (deltaTime) {
     positions.forEach(function (position, channel) {
         console.log('C %d: Sending %s', channel, JSON.stringify(position))
+        wsSender.send(position, channel);
     });
+    
+
     if (config.bundled) {
         oscSender.sendBundled(positions);
     } else {
