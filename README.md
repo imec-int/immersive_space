@@ -1,105 +1,76 @@
-# midi2iosono: control Barco IOSONO using MIDI signals
-## Installing midi2iosono
-To install, please make sure [NodeJS](https://nodejs.org/en/) >= 4.0.0 and optionally [git](https://git-scm.com) are installed. Run the following commands in bash:
+#IOSONO STARTUP SEQUENCE
 
-```bash
-git clone https://github.com/krooklab/midi2iosono.git
-# or wget https://github.com/krooklab/midi2iosono/archive/master.zip; unzip master.zip
-cd midi2iosono
-npm install
-```
+Basic template for using the immersive space setup at de krook
+## make sure all speakers are off
+# SERIOUSLY
 
-## Configuring midi2iosono
-Before running _midi2iosono_, a configuration JSON file needs to be prepared.
 
-### IOSONO parameters
+## network setup
+connect to the wired rednet network
+give yourself any non conflicting 192.168.1.XX IP
+the IOSONO has 192.168.1.10, the rednets are in an other range,
 
-parameter      | type      | description                                                                                                                    | default
--------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------
-`measurements` | `Object`  | An object containing the measurements of the IOSONO speaker setup, specified for each axis. Each value is specified in meters. | `{ "x": 10, "y": 10, "z": 10 }`
-`bundled`      | `boolean` | When `true`, all channel positions are sent as a OSC bundle.                                                                   | `false`
-`channels`     | `Number`  | The number of channels to send to iosono, starting from 0.                                                                     | `16`
-`host`         | `String`  | The IP address of the IOSONO.                                                                                                  | `"192.168.0.1"`
-`port`         | `String`  | The port of the IOSONO.                                                                                                        | `4001`
-`localAddress` | `String`  | The IP address to send OSC messages from.                                                                                      | `"0.0.0.0"`
-`localPort`    | `String`  | The port to send OSC messages from.                                                                                            | `5001`
-`address`      | `String`  | The IOSONO address.                                                                                                            | `"/iosono"`
 
-### MIDI parameters
+## rednet
 
-parameter | type     | description                                   | default
---------- | -------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------
-`name`    | `String` | The name of the Virtual MIDI device.          | `"IOSONO MIDI Receiver"`
-`mapping` | `Object` | The mapping of MIDI events on 3D coordinates. | `{ noteOn: { x: { key: [60, 80] }, y: { velocity: [0, 100] }}, channelPressure: { z: { pressure: [0, 100] }}}`
+- boot rednet 2 and 6 and iosono
+- isosono kriookimmersivespace
 
-The `mapping` object is a cascade of objects, following the following pattern:
+## speakers
+- power on speakers 
+- ...
 
-```
-"<MIDI event>": {
-    "<coordinate>": {
-        "<parameter>": [<min_range>, <max_range>]
-        }
-    }
-```
+## software
 
-Possible values for `<MIDI_event>` and associated `parameter` are:
+1. dante virtual sound card  (if needed) ==> 64x64
+2. dante controller (load preset DanteSetupImmersiveSpace.xml) 
 
-MIDI event            | Parameters
---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------
-noteOff               | `key`, `velocity`
-noteOn                | `key`, `velocity`
-polyphonicKeyPressure | `key`, `pressure`
-controlChange         | This a special case, where the parameter is the sent control change `number`. For example, a control change message with number 13 will be `"13": [ ... ]`
-programChange         | `number`
-channelPressure       | `pressure`
-pitchBend             | `bend`
+### to use midi positioning
+install https://github.com/krooklab/midi2iosono and RTFM
 
-The key `<coordinate>` has to be `"x"`, `"y"` or `"z"`. The array `[<min_range>, <max_range>]`contains two numbers in which the value of this parameter can vary. This range spans 0 - 100% of what is specified in the  ISONO `measurements` setting.
+when up and running start your DAW, ableton, puredata, ... and send midi and audio over 8 channels
 
-A complete config example is given below.
 
-```json
-{
-    "iosono": {
-        "measurements": {
-            "x": 10,
-            "y": 10,
-            "z": 10
-        },
-        "bundled": false,
-        "channels": 1,
-        "host": "192.168.0.1",
-        "port": 3333,
-        "localAddress": "0.0.0.0",
-        "localPort": 2222,
-        "address": "example.org/iosono"
-    },
-    "midi": {
-        "name": "MIDI-2-IOSONO",
-        "mapping": {
-            "noteOn": {
-              "y": {
-                "velocity": [0, 100]
-              }
-            },
-            "controlChange": {
-              "x": {
-                "12" : [0, 100]
-              }
-            },
-            "pitchBend": {
-               "z": {
-                 "bend": [0, 100]
-                }
-            }
-        }
-    }
-}
-```
 
-## Running midi2iosono
-You can simply run _midi2iosono_ in bash.
+# diagnosing a problem
 
-`./midi2iosono [config.json]`
+use rednet control 2 to check for the whole connection chain
 
-The config file can be supplied as a command line parameter or put as `config.json` in the working directory. If all goes well, you should see `midi2iosono ready and running as MIDI device: IOSONO MIDI Receiver` in your terminal.
+if rednet 6 gives output signal but no sound CHECK COAXIAL CABLE
+
+
+
+### IOSONO update for phosphotron
+Some information was given up here, but again short summary and some sidenotes
+## Dante Virtual Souncard
+make sure your PC has a fixed IP (192.168.1.11)
+
+64x64 channels
+## Dante Controller
+Load correct patch and check flow:
+
+PC/Mac ==> Rednet 6 ==> RedNet2_1/2/3/4
+## Midi2IOsono
+broncode at GIT, also  template for the phospotron setup
+
+in this template: midi cc 10 = x, 11 = y, 12 = z
+## Rednet2 Control software
+Check for RN6 to be master
+
+furthermore monitoring tool
+## Ableton Live
+audiosettings: (CTRL+,) input & output Dante Virtual Soundcard
+
+Output config: make sure all outputs as mono, as well 1/2 stereo
+
+Midi: all outputs to midi2Iosono (if not there, midi2iosono not running or crashed)
+
+## IOSono software
+Password symbol Iosono
+
+Run correct patch
+
+I/O Ctrl: MADI inputs available?
+
+Check third horizontal menu for monitoring of soundobject placement
+
