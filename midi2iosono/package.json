@@ -12,5 +12,8 @@
     "lodash": "^4.11.1",
     "midi": "^0.9.4",
     "osc": "^2.0.3"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.6.0"
   }
 }
