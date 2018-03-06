@@ -74,6 +74,7 @@ midiReceiver.on('clock', function (deltaTime) {
     if (config.bundled) {
         oscSender.sendBundled(positions);
     } else {
+        console.log(positions);
         positions.forEach(oscSender.send, oscSender);
         positions.forEach(wsSender.send, wsSender);
 //         wsSender.send(position, channel);

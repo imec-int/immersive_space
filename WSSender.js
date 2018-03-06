@@ -29,7 +29,7 @@ WSSender.prototype = {
     },
 
     send: function (position, channel) {
-        console.log('Emitting ....');
+        //console.log('Emitting ....');
         io.emit('iosono', {position: position, channel: channel});
     }
 }

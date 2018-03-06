@@ -14,7 +14,7 @@ function OSCSender(options) {
     });
 
     this._address = config.address || '/iosono';
-    this._host = config.host || '192.168.0.1';
+    this._host = config.host || '192.168.1.10';
     this._port = config.port || 4001;
 
     // Open the socket.

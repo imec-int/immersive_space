@@ -1,9 +1,9 @@
 {
     "iosono": {
         "measurements": {
-            "x": 5,
-            "y": 5,
-            "z": 5
+            "x": 10,
+            "y": 10,
+            "z": 10
         },
         "bundled": true,
         "channels": 8,  
@@ -24,7 +24,7 @@
             },
             "controlChange": {
               "x": {
-                "10" : [0, 127]
+                "12" : [0, 127]
               }
             },
             "pitchBend": {

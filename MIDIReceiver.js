@@ -71,7 +71,9 @@ MIDIReceiver.prototype._noteOff = function (channel, key, velocity) {
 
 MIDIReceiver.prototype._noteOn = function (channel, key, velocity) {
     console.log('C %d: Note on %d with velocity %d', channel, key, velocity);
-    this.emit('noteOn', channel, { key: key, velocity: velocity });
+    if (velocity != 0) {  /// need for not triggering double noteOns (NoteOff = NoteOn with velocity 0 )
+        this.emit('noteOn', channel, { key: key, velocity: velocity });
+    }
 };
 
 MIDIReceiver.prototype._polyphonicKeyPressure = function (channel, key, pressure) {
