@@ -1,0 +1,2651 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<preset version="2.0.0">
+    <name>phosphotron_dante_routing</name>
+    <description>Dante Controller preset</description>
+    <device>
+        <name>IDLab-Mocap-VirtualSoundcard</name>
+        <default_name>Kraus</default_name>
+        <instance_id>
+            <device_id>0CC47ABB484D0000</device_id>
+            <process_id>2184</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate Pty Ltd</manufacturer_name>
+        <model_id>44767357696E0000</model_id>
+        <model_name>Dante Virtual Soundcard</model_name>
+        <model_version>4.0.4</model_version>
+        <model_version_string>4.0.4.4</model_version_string>
+        <device_type>44767357696E0000</device_type>
+        <friendly_name>IDLab-Mocap-VirtualSoundcard</friendly_name>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <interface network="0"/>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <txchannel danteId="9"/>
+        <txchannel danteId="10"/>
+        <txchannel danteId="11"/>
+        <txchannel danteId="12"/>
+        <txchannel danteId="13"/>
+        <txchannel danteId="14"/>
+        <txchannel danteId="15"/>
+        <txchannel danteId="16"/>
+        <rxchannel danteId="1">
+            <name>01</name>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03</name>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05</name>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07</name>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>16</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IMEC-Lenovo</name>
+        <default_name>lenovo-laptop</default_name>
+        <instance_id>
+            <device_id>00243216BC710000</device_id>
+            <process_id>4332</process_id>
+        </instance_id>
+        <manufacturer_id>417564696E617465</manufacturer_id>
+        <manufacturer_name>Audinate Pty Ltd</manufacturer_name>
+        <model_id>44767357696E0000</model_id>
+        <model_name>Dante Virtual Soundcard</model_name>
+        <model_version>4.0.4</model_version>
+        <model_version_string>4.0.4.4</model_version_string>
+        <device_type>44767357696E0000</device_type>
+        <friendly_name>IMEC-Lenovo</friendly_name>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <interface network="0"/>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <txchannel danteId="9"/>
+        <txchannel danteId="10"/>
+        <txchannel danteId="11"/>
+        <txchannel danteId="12"/>
+        <txchannel danteId="13"/>
+        <txchannel danteId="14"/>
+        <txchannel danteId="15"/>
+        <txchannel danteId="16"/>
+        <rxchannel danteId="1">
+            <name>01</name>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03</name>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05</name>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07</name>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>16</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IMEC-RN2-1</name>
+        <default_name>BKLYN-II-0fab2a</default_name>
+        <instance_id>
+            <device_id>001DC10FAB2A0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>RedNet 2</model_name>
+        <model_version>2.2.0</model_version>
+        <model_version_string>2.2.0</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IMEC-RN2-1</friendly_name>
+        <preferred_master value="false"/>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>150</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="static">
+                <address>10.10.140.70</address>
+                <netmask>255.255.252.0</netmask>
+                <dnsserver>0.0.0.0</dnsserver>
+                <gateway>10.10.140.1</gateway>
+            </ipv4_address>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <txchannel danteId="9"/>
+        <txchannel danteId="10"/>
+        <txchannel danteId="11"/>
+        <txchannel danteId="12"/>
+        <txchannel danteId="13"/>
+        <txchannel danteId="14"/>
+        <txchannel danteId="15"/>
+        <txchannel danteId="16"/>
+        <rxchannel danteId="1">
+            <name>01</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03</name>
+            <subscribed_channel>03</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04</name>
+            <subscribed_channel>04</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05</name>
+            <subscribed_channel>05</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06</name>
+            <subscribed_channel>06</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07</name>
+            <subscribed_channel>07</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08</name>
+            <subscribed_channel>08</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>09</name>
+            <subscribed_channel>09</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>10</name>
+            <subscribed_channel>10</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>11</name>
+            <subscribed_channel>11</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>12</name>
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>13</name>
+            <subscribed_channel>13</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>14</name>
+            <subscribed_channel>14</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>15</name>
+            <subscribed_channel>15</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>16</name>
+            <subscribed_channel>16</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IMEC-RN2-2</name>
+        <default_name>BKLYN-II-0bd3be</default_name>
+        <instance_id>
+            <device_id>001DC10BD3BE0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>RedNet 2</model_name>
+        <model_version>2.2.0</model_version>
+        <model_version_string>2.2.0</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IMEC-RN2-2</friendly_name>
+        <preferred_master value="false"/>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="static">
+                <address>10.10.140.71</address>
+                <netmask>255.255.252.0</netmask>
+                <dnsserver>0.0.0.0</dnsserver>
+                <gateway>10.10.140.1</gateway>
+            </ipv4_address>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <txchannel danteId="9"/>
+        <txchannel danteId="10"/>
+        <txchannel danteId="11"/>
+        <txchannel danteId="12"/>
+        <txchannel danteId="13"/>
+        <txchannel danteId="14"/>
+        <txchannel danteId="15"/>
+        <txchannel danteId="16"/>
+        <rxchannel danteId="1">
+            <name>01</name>
+            <subscribed_channel>17</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02</name>
+            <subscribed_channel>18</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03</name>
+            <subscribed_channel>19</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04</name>
+            <subscribed_channel>20</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05</name>
+            <subscribed_channel>21</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06</name>
+            <subscribed_channel>22</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07</name>
+            <subscribed_channel>23</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08</name>
+            <subscribed_channel>24</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>09</name>
+            <subscribed_channel>25</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>10</name>
+            <subscribed_channel>26</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>11</name>
+            <subscribed_channel>27</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>12</name>
+            <subscribed_channel>28</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>13</name>
+            <subscribed_channel>29</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>14</name>
+            <subscribed_channel>30</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>15</name>
+            <subscribed_channel>31</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>16</name>
+            <subscribed_channel>32</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IMEC-RN2-3</name>
+        <default_name>BKLYN-II-0dd9b2</default_name>
+        <instance_id>
+            <device_id>001DC10DD9B20000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>RedNet 2</model_name>
+        <model_version>2.2.0</model_version>
+        <model_version_string>2.2.0</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IMEC-RN2-3</friendly_name>
+        <preferred_master value="false"/>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>150</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="static">
+                <address>10.10.140.72</address>
+                <netmask>255.255.252.0</netmask>
+                <dnsserver>0.0.0.0</dnsserver>
+                <gateway>10.10.140.1</gateway>
+            </ipv4_address>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <txchannel danteId="9"/>
+        <txchannel danteId="10"/>
+        <txchannel danteId="11"/>
+        <txchannel danteId="12"/>
+        <txchannel danteId="13"/>
+        <txchannel danteId="14"/>
+        <txchannel danteId="15"/>
+        <txchannel danteId="16"/>
+        <rxchannel danteId="1">
+            <name>01</name>
+            <subscribed_channel>33</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02</name>
+            <subscribed_channel>34</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03</name>
+            <subscribed_channel>35</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04</name>
+            <subscribed_channel>36</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05</name>
+            <subscribed_channel>37</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06</name>
+            <subscribed_channel>38</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07</name>
+            <subscribed_channel>39</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08</name>
+            <subscribed_channel>40</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>09</name>
+            <subscribed_channel>41</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>10</name>
+            <subscribed_channel>42</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>11</name>
+            <subscribed_channel>43</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>12</name>
+            <subscribed_channel>44</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>13</name>
+            <subscribed_channel>45</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>14</name>
+            <subscribed_channel>46</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>15</name>
+            <subscribed_channel>47</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>16</name>
+            <subscribed_channel>48</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IMEC-RN2-4</name>
+        <default_name>BKLYN-II-0dd0d6</default_name>
+        <instance_id>
+            <device_id>001DC10DD0D60000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>RedNet 2</model_name>
+        <model_version>2.2.0</model_version>
+        <model_version_string>2.2.0</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IMEC-RN2-4</friendly_name>
+        <preferred_master value="false"/>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>150</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="static">
+                <address>10.10.140.73</address>
+                <netmask>255.255.252.0</netmask>
+                <dnsserver>0.0.0.0</dnsserver>
+                <gateway>10.10.140.1</gateway>
+            </ipv4_address>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <txchannel danteId="9"/>
+        <txchannel danteId="10"/>
+        <txchannel danteId="11"/>
+        <txchannel danteId="12"/>
+        <txchannel danteId="13"/>
+        <txchannel danteId="14"/>
+        <txchannel danteId="15"/>
+        <txchannel danteId="16"/>
+        <rxchannel danteId="1">
+            <name>01</name>
+            <subscribed_channel>49</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02</name>
+            <subscribed_channel>50</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03</name>
+            <subscribed_channel>51</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04</name>
+            <subscribed_channel>52</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05</name>
+            <subscribed_channel>53</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06</name>
+            <subscribed_channel>54</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07</name>
+            <subscribed_channel>55</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08</name>
+            <subscribed_channel>56</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>09</name>
+            <subscribed_channel>57</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>10</name>
+            <subscribed_channel>58</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>11</name>
+            <subscribed_channel>59</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>12</name>
+            <subscribed_channel>60</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>13</name>
+            <subscribed_channel>61</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>14</name>
+            <subscribed_channel>62</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>15</name>
+            <subscribed_channel>63</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>16</name>
+            <subscribed_channel>64</subscribed_channel>
+            <subscribed_device>IOSONO-RN6</subscribed_device>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IOSONO-RN6</name>
+        <default_name>BKLYN-II-04520a</default_name>
+        <instance_id>
+            <device_id>001DC104520A0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>RedNet 6</model_name>
+        <model_version>2.6.0</model_version>
+        <model_version_string>2.6.0</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IOSONO-RN6</friendly_name>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <txchannel danteId="9"/>
+        <txchannel danteId="10"/>
+        <txchannel danteId="11"/>
+        <txchannel danteId="12"/>
+        <txchannel danteId="13"/>
+        <txchannel danteId="14"/>
+        <txchannel danteId="15"/>
+        <txchannel danteId="16"/>
+        <txchannel danteId="17"/>
+        <txchannel danteId="18"/>
+        <txchannel danteId="19"/>
+        <txchannel danteId="20"/>
+        <txchannel danteId="21"/>
+        <txchannel danteId="22"/>
+        <txchannel danteId="23"/>
+        <txchannel danteId="24"/>
+        <txchannel danteId="25"/>
+        <txchannel danteId="26"/>
+        <txchannel danteId="27"/>
+        <txchannel danteId="28"/>
+        <txchannel danteId="29"/>
+        <txchannel danteId="30"/>
+        <txchannel danteId="31"/>
+        <txchannel danteId="32"/>
+        <txchannel danteId="33"/>
+        <txchannel danteId="34"/>
+        <txchannel danteId="35"/>
+        <txchannel danteId="36"/>
+        <txchannel danteId="37"/>
+        <txchannel danteId="38"/>
+        <txchannel danteId="39"/>
+        <txchannel danteId="40"/>
+        <txchannel danteId="41"/>
+        <txchannel danteId="42"/>
+        <txchannel danteId="43"/>
+        <txchannel danteId="44"/>
+        <txchannel danteId="45"/>
+        <txchannel danteId="46"/>
+        <txchannel danteId="47"/>
+        <txchannel danteId="48"/>
+        <txchannel danteId="49"/>
+        <txchannel danteId="50"/>
+        <txchannel danteId="51"/>
+        <txchannel danteId="52"/>
+        <txchannel danteId="53"/>
+        <txchannel danteId="54"/>
+        <txchannel danteId="55"/>
+        <txchannel danteId="56"/>
+        <txchannel danteId="57"/>
+        <txchannel danteId="58"/>
+        <txchannel danteId="59"/>
+        <txchannel danteId="60"/>
+        <txchannel danteId="61"/>
+        <txchannel danteId="62"/>
+        <txchannel danteId="63"/>
+        <txchannel danteId="64"/>
+        <rxchannel danteId="1">
+            <name>01</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03</name>
+            <subscribed_channel>03</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04</name>
+            <subscribed_channel>04</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05</name>
+            <subscribed_channel>05</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06</name>
+            <subscribed_channel>06</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07</name>
+            <subscribed_channel>07</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08</name>
+            <subscribed_channel>08</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>09</name>
+            <subscribed_channel>09</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>10</name>
+            <subscribed_channel>10</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>11</name>
+            <subscribed_channel>11</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>12</name>
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>13</name>
+            <subscribed_channel>13</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>14</name>
+            <subscribed_channel>14</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>15</name>
+            <subscribed_channel>15</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>16</name>
+            <subscribed_channel>16</subscribed_channel>
+            <subscribed_device>IMEC-Lenovo</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="17">
+            <name>17</name>
+            <subscribed_channel>17</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="18">
+            <name>18</name>
+            <subscribed_channel>18</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="19">
+            <name>19</name>
+            <subscribed_channel>19</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="20">
+            <name>20</name>
+            <subscribed_channel>20</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="21">
+            <name>21</name>
+            <subscribed_channel>21</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="22">
+            <name>22</name>
+            <subscribed_channel>22</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="23">
+            <name>23</name>
+            <subscribed_channel>23</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="24">
+            <name>24</name>
+            <subscribed_channel>24</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="25">
+            <name>25</name>
+            <subscribed_channel>25</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="26">
+            <name>26</name>
+            <subscribed_channel>26</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="27">
+            <name>27</name>
+            <subscribed_channel>27</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="28">
+            <name>28</name>
+            <subscribed_channel>28</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="29">
+            <name>29</name>
+            <subscribed_channel>29</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="30">
+            <name>30</name>
+            <subscribed_channel>30</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="31">
+            <name>31</name>
+            <subscribed_channel>31</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="32">
+            <name>32</name>
+            <subscribed_channel>32</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="33">
+            <name>33</name>
+            <subscribed_channel>33</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="34">
+            <name>34</name>
+            <subscribed_channel>34</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="35">
+            <name>35</name>
+            <subscribed_channel>35</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="36">
+            <name>36</name>
+            <subscribed_channel>36</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="37">
+            <name>37</name>
+            <subscribed_channel>37</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="38">
+            <name>38</name>
+            <subscribed_channel>38</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="39">
+            <name>39</name>
+            <subscribed_channel>39</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="40">
+            <name>40</name>
+            <subscribed_channel>40</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="41">
+            <name>41</name>
+            <subscribed_channel>41</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="42">
+            <name>42</name>
+            <subscribed_channel>42</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="43">
+            <name>43</name>
+            <subscribed_channel>43</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="44">
+            <name>44</name>
+            <subscribed_channel>44</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="45">
+            <name>45</name>
+            <subscribed_channel>45</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="46">
+            <name>46</name>
+            <subscribed_channel>46</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="47">
+            <name>47</name>
+            <subscribed_channel>47</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="48">
+            <name>48</name>
+            <subscribed_channel>48</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="49">
+            <name>49</name>
+            <subscribed_channel>49</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="50">
+            <name>50</name>
+            <subscribed_channel>50</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="51">
+            <name>51</name>
+            <subscribed_channel>51</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="52">
+            <name>52</name>
+            <subscribed_channel>52</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="53">
+            <name>53</name>
+            <subscribed_channel>53</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="54">
+            <name>54</name>
+            <subscribed_channel>54</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="55">
+            <name>55</name>
+            <subscribed_channel>55</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="56">
+            <name>56</name>
+            <subscribed_channel>56</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="57">
+            <name>57</name>
+            <subscribed_channel>57</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="58">
+            <name>58</name>
+            <subscribed_channel>58</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="59">
+            <name>59</name>
+            <subscribed_channel>59</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="60">
+            <name>60</name>
+            <subscribed_channel>60</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="61">
+            <name>61</name>
+            <subscribed_channel>61</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="62">
+            <name>62</name>
+            <subscribed_channel>62</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="63">
+            <name>63</name>
+            <subscribed_channel>63</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="64">
+            <name>64</name>
+            <subscribed_channel>64</subscribed_channel>
+            <subscribed_device>IPEM-RACK-PC</subscribed_device>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-AMP-1</name>
+        <default_name>X-Series-0d945c</default_name>
+        <instance_id>
+            <device_id>001DC10D945C0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-1</friendly_name>
+        <redundancy value="true"/>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <interface network="1">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <rxchannel danteId="1">
+            <name>01 - #01</name>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02 - #02</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03 - #03</name>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04 - #04</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05 - #05</name>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06 - #06</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07 - #07</name>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08 - #08</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>Ch 09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>Ch 10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>Ch 11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>Ch 12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>Ch 13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>Ch 14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>Ch 15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>Ch 16</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-AMP-2</name>
+        <default_name>X-Series-0d93fe</default_name>
+        <instance_id>
+            <device_id>001DC10D93FE0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-2</friendly_name>
+        <redundancy value="true"/>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <interface network="1">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <rxchannel danteId="1">
+            <name>01 - #09</name>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02 - #10</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03 - #11</name>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04 - #12</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05 - #13</name>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06 - #14</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07 - #15</name>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08 - #16</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>Ch 09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>Ch 10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>Ch 11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>Ch 12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>Ch 13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>Ch 14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>Ch 15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>Ch 16</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-AMP-3</name>
+        <default_name>X-Series-0d9448</default_name>
+        <instance_id>
+            <device_id>001DC10D94480000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-3</friendly_name>
+        <redundancy value="true"/>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <interface network="1">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <rxchannel danteId="1">
+            <name>01 - #17</name>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02 - #18</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03 - #19</name>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04 - #20</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05 - #21</name>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06 - #22</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07 - #23</name>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08 - #24</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>Ch 09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>Ch 10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>Ch 11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>Ch 12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>Ch 13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>Ch 14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>Ch 15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>Ch 16</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-AMP-4</name>
+        <default_name>X-Series-0d9454</default_name>
+        <instance_id>
+            <device_id>001DC10D94540000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-4</friendly_name>
+        <redundancy value="true"/>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <interface network="1">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <rxchannel danteId="1">
+            <name>01 - #25</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02 - #26</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03 - #27</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04 - #28</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05 - #29</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06 - #30</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07 - #31</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08 - #32</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>Ch 09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>Ch 10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>Ch 11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>Ch 12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>Ch 13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>Ch 14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>Ch 15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>Ch 16</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-AMP-5</name>
+        <default_name>X-Series-0d9456</default_name>
+        <instance_id>
+            <device_id>001DC10D94560000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-5</friendly_name>
+        <redundancy value="true"/>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <interface network="1">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <rxchannel danteId="1">
+            <name>01 - #33</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02 - #34</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03 - #35</name>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04 - #36</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05 - #37</name>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06 - #38</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07 - #39</name>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08 - #40</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>Ch 09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>Ch 10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>Ch 11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>Ch 12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>Ch 13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>Ch 14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>Ch 15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>Ch 16</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-AMP-6</name>
+        <default_name>X-Series-0d9402</default_name>
+        <instance_id>
+            <device_id>001DC10D94020000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-6</friendly_name>
+        <redundancy value="true"/>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <interface network="1">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <rxchannel danteId="1">
+            <name>01 - #41</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02 - #42</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03 - #43</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04 - #44</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05 - #45</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06 - #46</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07 - #47</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08 - #48</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>Ch 09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>Ch 10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>Ch 11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>Ch 12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>Ch 13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>Ch 14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>Ch 15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>Ch 16</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-AMP-7</name>
+        <default_name>X-Series-0d9452</default_name>
+        <instance_id>
+            <device_id>001DC10D94520000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-7</friendly_name>
+        <redundancy value="true"/>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <interface network="1">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <rxchannel danteId="1">
+            <name>01 - #49</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02 - #50</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03 - #51</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04 - #52</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05 - #53</name>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06 - #54</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>LW17C046</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07 - #55</name>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08 - #56</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>Ch 09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>Ch 10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>Ch 11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>Ch 12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>Ch 13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>Ch 14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>Ch 15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>Ch 16</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-AMP-8-MONITORS</name>
+        <default_name>X-Series-0dd068</default_name>
+        <instance_id>
+            <device_id>001DC10DD0680000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-8-MONITORS</friendly_name>
+        <redundancy value="true"/>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <interface network="1">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <rxchannel danteId="1">
+            <name>01 - #57</name>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02 - #58</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03 - n/c</name>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04 - n/c</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05 - n/c</name>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06 - n/c</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07 - #63</name>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08 - #64</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>Ch 09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>Ch 10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>Ch 11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>Ch 12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>Ch 13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>Ch 14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>Ch 15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>Ch 16</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-AMP-9-subs</name>
+        <default_name>X-Series-0dcfe6</default_name>
+        <instance_id>
+            <device_id>001DC10DCFE60000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-9-subs</friendly_name>
+        <redundancy value="true"/>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <interface network="1">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <rxchannel danteId="1">
+            <name>01 - #59</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02 - #60</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03 - #61</name>
+            <subscribed_channel>01</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04 - #62</name>
+            <subscribed_channel>02</subscribed_channel>
+            <subscribed_device>IDLab-VR-VIVEpro</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05 - nvt</name>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06 - nvt</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07 - nvt</name>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08 - nvt</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>Ch 09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>Ch 10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>Ch 11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>Ch 12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>Ch 13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>Ch 14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>Ch 15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>Ch 16</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-MACHINEROOM-AMBISONICS</name>
+        <default_name>RedPCIeR-050e9a</default_name>
+        <instance_id>
+            <device_id>001DC1050E9A0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd.</manufacturer_name>
+        <model_id>5265645043496552</model_id>
+        <model_name>RedNet PCIeR</model_name>
+        <model_version>3.10.0</model_version>
+        <device_type>5043496500000000</device_type>
+        <device_type_string>Dante PCIe IF</device_type_string>
+        <friendly_name>IPEM-MACHINEROOM-AMBISONICS</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <interface network="1">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <txchannel danteId="9"/>
+        <txchannel danteId="10"/>
+        <txchannel danteId="11"/>
+        <txchannel danteId="12"/>
+        <txchannel danteId="13"/>
+        <txchannel danteId="14"/>
+        <txchannel danteId="15"/>
+        <txchannel danteId="16"/>
+        <txchannel danteId="17"/>
+        <txchannel danteId="18"/>
+        <txchannel danteId="19"/>
+        <txchannel danteId="20"/>
+        <txchannel danteId="21"/>
+        <txchannel danteId="22"/>
+        <txchannel danteId="23"/>
+        <txchannel danteId="24"/>
+        <txchannel danteId="25"/>
+        <txchannel danteId="26"/>
+        <txchannel danteId="27"/>
+        <txchannel danteId="28"/>
+        <txchannel danteId="29"/>
+        <txchannel danteId="30"/>
+        <txchannel danteId="31"/>
+        <txchannel danteId="32"/>
+        <txchannel danteId="33"/>
+        <txchannel danteId="34"/>
+        <txchannel danteId="35"/>
+        <txchannel danteId="36"/>
+        <txchannel danteId="37"/>
+        <txchannel danteId="38"/>
+        <txchannel danteId="39"/>
+        <txchannel danteId="40"/>
+        <txchannel danteId="41"/>
+        <txchannel danteId="42"/>
+        <txchannel danteId="43"/>
+        <txchannel danteId="44"/>
+        <txchannel danteId="45"/>
+        <txchannel danteId="46"/>
+        <txchannel danteId="47"/>
+        <txchannel danteId="48"/>
+        <txchannel danteId="49"/>
+        <txchannel danteId="50"/>
+        <txchannel danteId="51"/>
+        <txchannel danteId="52"/>
+        <txchannel danteId="53"/>
+        <txchannel danteId="54"/>
+        <txchannel danteId="55"/>
+        <txchannel danteId="56"/>
+        <txchannel danteId="57"/>
+        <txchannel danteId="58"/>
+        <txchannel danteId="59"/>
+        <txchannel danteId="60"/>
+        <txchannel danteId="61"/>
+        <txchannel danteId="62"/>
+        <txchannel danteId="63"/>
+        <txchannel danteId="64"/>
+        <txchannel danteId="65"/>
+        <txchannel danteId="66"/>
+        <txchannel danteId="67"/>
+        <txchannel danteId="68"/>
+        <txchannel danteId="69"/>
+        <txchannel danteId="70"/>
+        <txchannel danteId="71"/>
+        <txchannel danteId="72"/>
+        <txchannel danteId="73"/>
+        <txchannel danteId="74"/>
+        <txchannel danteId="75"/>
+        <txchannel danteId="76"/>
+        <txchannel danteId="77"/>
+        <txchannel danteId="78"/>
+        <txchannel danteId="79"/>
+        <txchannel danteId="80"/>
+        <txchannel danteId="81"/>
+        <txchannel danteId="82"/>
+        <txchannel danteId="83"/>
+        <txchannel danteId="84"/>
+        <txchannel danteId="85"/>
+        <txchannel danteId="86"/>
+        <txchannel danteId="87"/>
+        <txchannel danteId="88"/>
+        <txchannel danteId="89"/>
+        <txchannel danteId="90"/>
+        <txchannel danteId="91"/>
+        <txchannel danteId="92"/>
+        <txchannel danteId="93"/>
+        <txchannel danteId="94"/>
+        <txchannel danteId="95"/>
+        <txchannel danteId="96"/>
+        <txchannel danteId="97"/>
+        <txchannel danteId="98"/>
+        <txchannel danteId="99"/>
+        <txchannel danteId="100"/>
+        <txchannel danteId="101"/>
+        <txchannel danteId="102"/>
+        <txchannel danteId="103"/>
+        <txchannel danteId="104"/>
+        <txchannel danteId="105"/>
+        <txchannel danteId="106"/>
+        <txchannel danteId="107"/>
+        <txchannel danteId="108"/>
+        <txchannel danteId="109"/>
+        <txchannel danteId="110"/>
+        <txchannel danteId="111"/>
+        <txchannel danteId="112"/>
+        <txchannel danteId="113"/>
+        <txchannel danteId="114"/>
+        <txchannel danteId="115"/>
+        <txchannel danteId="116"/>
+        <txchannel danteId="117"/>
+        <txchannel danteId="118"/>
+        <txchannel danteId="119"/>
+        <txchannel danteId="120"/>
+        <txchannel danteId="121"/>
+        <txchannel danteId="122"/>
+        <txchannel danteId="123"/>
+        <txchannel danteId="124"/>
+        <txchannel danteId="125"/>
+        <txchannel danteId="126"/>
+        <txchannel danteId="127"/>
+        <txchannel danteId="128"/>
+        <rxchannel danteId="1">
+            <name>01</name>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03</name>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05</name>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07</name>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>16</name>
+        </rxchannel>
+        <rxchannel danteId="17">
+            <name>17</name>
+        </rxchannel>
+        <rxchannel danteId="18">
+            <name>18</name>
+        </rxchannel>
+        <rxchannel danteId="19">
+            <name>19</name>
+        </rxchannel>
+        <rxchannel danteId="20">
+            <name>20</name>
+        </rxchannel>
+        <rxchannel danteId="21">
+            <name>21</name>
+        </rxchannel>
+        <rxchannel danteId="22">
+            <name>22</name>
+        </rxchannel>
+        <rxchannel danteId="23">
+            <name>23</name>
+        </rxchannel>
+        <rxchannel danteId="24">
+            <name>24</name>
+        </rxchannel>
+        <rxchannel danteId="25">
+            <name>25</name>
+        </rxchannel>
+        <rxchannel danteId="26">
+            <name>26</name>
+        </rxchannel>
+        <rxchannel danteId="27">
+            <name>27</name>
+        </rxchannel>
+        <rxchannel danteId="28">
+            <name>28</name>
+        </rxchannel>
+        <rxchannel danteId="29">
+            <name>29</name>
+        </rxchannel>
+        <rxchannel danteId="30">
+            <name>30</name>
+        </rxchannel>
+        <rxchannel danteId="31">
+            <name>31</name>
+        </rxchannel>
+        <rxchannel danteId="32">
+            <name>32</name>
+        </rxchannel>
+        <rxchannel danteId="33">
+            <name>33</name>
+        </rxchannel>
+        <rxchannel danteId="34">
+            <name>34</name>
+        </rxchannel>
+        <rxchannel danteId="35">
+            <name>35</name>
+        </rxchannel>
+        <rxchannel danteId="36">
+            <name>36</name>
+        </rxchannel>
+        <rxchannel danteId="37">
+            <name>37</name>
+        </rxchannel>
+        <rxchannel danteId="38">
+            <name>38</name>
+        </rxchannel>
+        <rxchannel danteId="39">
+            <name>39</name>
+        </rxchannel>
+        <rxchannel danteId="40">
+            <name>40</name>
+        </rxchannel>
+        <rxchannel danteId="41">
+            <name>41</name>
+        </rxchannel>
+        <rxchannel danteId="42">
+            <name>42</name>
+        </rxchannel>
+        <rxchannel danteId="43">
+            <name>43</name>
+        </rxchannel>
+        <rxchannel danteId="44">
+            <name>44</name>
+        </rxchannel>
+        <rxchannel danteId="45">
+            <name>45</name>
+        </rxchannel>
+        <rxchannel danteId="46">
+            <name>46</name>
+        </rxchannel>
+        <rxchannel danteId="47">
+            <name>47</name>
+        </rxchannel>
+        <rxchannel danteId="48">
+            <name>48</name>
+        </rxchannel>
+        <rxchannel danteId="49">
+            <name>49</name>
+        </rxchannel>
+        <rxchannel danteId="50">
+            <name>50</name>
+        </rxchannel>
+        <rxchannel danteId="51">
+            <name>51</name>
+        </rxchannel>
+        <rxchannel danteId="52">
+            <name>52</name>
+        </rxchannel>
+        <rxchannel danteId="53">
+            <name>53</name>
+        </rxchannel>
+        <rxchannel danteId="54">
+            <name>54</name>
+        </rxchannel>
+        <rxchannel danteId="55">
+            <name>55</name>
+        </rxchannel>
+        <rxchannel danteId="56">
+            <name>56</name>
+        </rxchannel>
+        <rxchannel danteId="57">
+            <name>57</name>
+        </rxchannel>
+        <rxchannel danteId="58">
+            <name>58</name>
+        </rxchannel>
+        <rxchannel danteId="59">
+            <name>59</name>
+        </rxchannel>
+        <rxchannel danteId="60">
+            <name>60</name>
+        </rxchannel>
+        <rxchannel danteId="61">
+            <name>61</name>
+        </rxchannel>
+        <rxchannel danteId="62">
+            <name>62</name>
+        </rxchannel>
+        <rxchannel danteId="63">
+            <name>63</name>
+        </rxchannel>
+        <rxchannel danteId="64">
+            <name>64</name>
+        </rxchannel>
+        <rxchannel danteId="65">
+            <name>65</name>
+        </rxchannel>
+        <rxchannel danteId="66">
+            <name>66</name>
+        </rxchannel>
+        <rxchannel danteId="67">
+            <name>67</name>
+        </rxchannel>
+        <rxchannel danteId="68">
+            <name>68</name>
+        </rxchannel>
+        <rxchannel danteId="69">
+            <name>69</name>
+        </rxchannel>
+        <rxchannel danteId="70">
+            <name>70</name>
+        </rxchannel>
+        <rxchannel danteId="71">
+            <name>71</name>
+        </rxchannel>
+        <rxchannel danteId="72">
+            <name>72</name>
+        </rxchannel>
+        <rxchannel danteId="73">
+            <name>73</name>
+        </rxchannel>
+        <rxchannel danteId="74">
+            <name>74</name>
+        </rxchannel>
+        <rxchannel danteId="75">
+            <name>75</name>
+        </rxchannel>
+        <rxchannel danteId="76">
+            <name>76</name>
+        </rxchannel>
+        <rxchannel danteId="77">
+            <name>77</name>
+        </rxchannel>
+        <rxchannel danteId="78">
+            <name>78</name>
+        </rxchannel>
+        <rxchannel danteId="79">
+            <name>79</name>
+        </rxchannel>
+        <rxchannel danteId="80">
+            <name>80</name>
+        </rxchannel>
+        <rxchannel danteId="81">
+            <name>81</name>
+        </rxchannel>
+        <rxchannel danteId="82">
+            <name>82</name>
+        </rxchannel>
+        <rxchannel danteId="83">
+            <name>83</name>
+        </rxchannel>
+        <rxchannel danteId="84">
+            <name>84</name>
+        </rxchannel>
+        <rxchannel danteId="85">
+            <name>85</name>
+        </rxchannel>
+        <rxchannel danteId="86">
+            <name>86</name>
+        </rxchannel>
+        <rxchannel danteId="87">
+            <name>87</name>
+        </rxchannel>
+        <rxchannel danteId="88">
+            <name>88</name>
+        </rxchannel>
+        <rxchannel danteId="89">
+            <name>89</name>
+        </rxchannel>
+        <rxchannel danteId="90">
+            <name>90</name>
+        </rxchannel>
+        <rxchannel danteId="91">
+            <name>91</name>
+        </rxchannel>
+        <rxchannel danteId="92">
+            <name>92</name>
+        </rxchannel>
+        <rxchannel danteId="93">
+            <name>93</name>
+        </rxchannel>
+        <rxchannel danteId="94">
+            <name>94</name>
+        </rxchannel>
+        <rxchannel danteId="95">
+            <name>95</name>
+        </rxchannel>
+        <rxchannel danteId="96">
+            <name>96</name>
+        </rxchannel>
+        <rxchannel danteId="97">
+            <name>97</name>
+        </rxchannel>
+        <rxchannel danteId="98">
+            <name>98</name>
+        </rxchannel>
+        <rxchannel danteId="99">
+            <name>99</name>
+        </rxchannel>
+        <rxchannel danteId="100">
+            <name>100</name>
+        </rxchannel>
+        <rxchannel danteId="101">
+            <name>101</name>
+        </rxchannel>
+        <rxchannel danteId="102">
+            <name>102</name>
+        </rxchannel>
+        <rxchannel danteId="103">
+            <name>103</name>
+        </rxchannel>
+        <rxchannel danteId="104">
+            <name>104</name>
+        </rxchannel>
+        <rxchannel danteId="105">
+            <name>105</name>
+        </rxchannel>
+        <rxchannel danteId="106">
+            <name>106</name>
+        </rxchannel>
+        <rxchannel danteId="107">
+            <name>107</name>
+        </rxchannel>
+        <rxchannel danteId="108">
+            <name>108</name>
+        </rxchannel>
+        <rxchannel danteId="109">
+            <name>109</name>
+        </rxchannel>
+        <rxchannel danteId="110">
+            <name>110</name>
+        </rxchannel>
+        <rxchannel danteId="111">
+            <name>111</name>
+        </rxchannel>
+        <rxchannel danteId="112">
+            <name>112</name>
+        </rxchannel>
+        <rxchannel danteId="113">
+            <name>113</name>
+        </rxchannel>
+        <rxchannel danteId="114">
+            <name>114</name>
+        </rxchannel>
+        <rxchannel danteId="115">
+            <name>115</name>
+        </rxchannel>
+        <rxchannel danteId="116">
+            <name>116</name>
+        </rxchannel>
+        <rxchannel danteId="117">
+            <name>117</name>
+        </rxchannel>
+        <rxchannel danteId="118">
+            <name>118</name>
+        </rxchannel>
+        <rxchannel danteId="119">
+            <name>119</name>
+        </rxchannel>
+        <rxchannel danteId="120">
+            <name>120</name>
+        </rxchannel>
+        <rxchannel danteId="121">
+            <name>121</name>
+        </rxchannel>
+        <rxchannel danteId="122">
+            <name>122</name>
+        </rxchannel>
+        <rxchannel danteId="123">
+            <name>123</name>
+        </rxchannel>
+        <rxchannel danteId="124">
+            <name>124</name>
+        </rxchannel>
+        <rxchannel danteId="125">
+            <name>125</name>
+        </rxchannel>
+        <rxchannel danteId="126">
+            <name>126</name>
+        </rxchannel>
+        <rxchannel danteId="127">
+            <name>127</name>
+        </rxchannel>
+        <rxchannel danteId="128">
+            <name>128</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-MACHINEROOM-SYNCMASTER</name>
+        <default_name>RN-A16R-135498</default_name>
+        <instance_id>
+            <device_id>001DC11354980000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>RedNet A16R</model_name>
+        <model_version>2.13.0</model_version>
+        <model_version_string>2.13.0</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-MACHINEROOM-SYNCMASTER</friendly_name>
+        <redundancy value="false"/>
+        <preferred_master value="true"/>
+        <external_word_clock value="true"/>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <txchannel danteId="9"/>
+        <txchannel danteId="10"/>
+        <txchannel danteId="11"/>
+        <txchannel danteId="12"/>
+        <txchannel danteId="13"/>
+        <txchannel danteId="14"/>
+        <txchannel danteId="15"/>
+        <txchannel danteId="16"/>
+        <txchannel danteId="17"/>
+        <txchannel danteId="18"/>
+        <rxchannel danteId="1">
+            <name>01</name>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03</name>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05</name>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07</name>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>16</name>
+        </rxchannel>
+        <rxchannel danteId="17">
+            <name>17</name>
+        </rxchannel>
+        <rxchannel danteId="18">
+            <name>18</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-MONITOR-UPSTAIRS</name>
+        <default_name>RN-AM2-8057ca</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE8057CA</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite</manufacturer_name>
+        <model_id>0000000000000003</model_id>
+        <model_name>RedNet AM2</model_name>
+        <model_version>0.0.2</model_version>
+        <device_type>556C74696D6F5800</device_type>
+        <device_type_string>UltimoX2</device_type_string>
+        <friendly_name>IPEM-MONITOR-UPSTAIRS</friendly_name>
+        <preferred_master value="false"/>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <rxchannel danteId="1">
+            <name>1 - Left</name>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>2 - Right</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-RACK-ANALOG-IN-OUT</name>
+        <default_name>RN-A16R-135496</default_name>
+        <instance_id>
+            <device_id>001DC11354960000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>RedNet A16R</model_name>
+        <model_version>2.13.0</model_version>
+        <model_version_string>2.13.0</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-RACK-ANALOG-IN-OUT</friendly_name>
+        <redundancy value="false"/>
+        <preferred_master value="false"/>
+        <external_word_clock value="false"/>
+        <clock_pullup value="0"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="dynamic"/>
+        </interface>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+        <txchannel danteId="9"/>
+        <txchannel danteId="10"/>
+        <txchannel danteId="11"/>
+        <txchannel danteId="12"/>
+        <txchannel danteId="13"/>
+        <txchannel danteId="14"/>
+        <txchannel danteId="15"/>
+        <txchannel danteId="16"/>
+        <txchannel danteId="17"/>
+        <txchannel danteId="18"/>
+        <rxchannel danteId="1">
+            <name>01</name>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <name>02</name>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <name>03</name>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <name>04</name>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <name>05</name>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <name>06</name>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <name>07</name>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <name>08</name>
+        </rxchannel>
+        <rxchannel danteId="9">
+            <name>09</name>
+        </rxchannel>
+        <rxchannel danteId="10">
+            <name>10</name>
+        </rxchannel>
+        <rxchannel danteId="11">
+            <name>11</name>
+        </rxchannel>
+        <rxchannel danteId="12">
+            <name>12</name>
+        </rxchannel>
+        <rxchannel danteId="13">
+            <name>13</name>
+        </rxchannel>
+        <rxchannel danteId="14">
+            <name>14</name>
+        </rxchannel>
+        <rxchannel danteId="15">
+            <name>15</name>
+        </rxchannel>
+        <rxchannel danteId="16">
+            <name>16</name>
+        </rxchannel>
+        <rxchannel danteId="17">
+            <name>17</name>
+        </rxchannel>
+        <rxchannel danteId="18">
+            <name>18</name>
+        </rxchannel>
+    </device>
+    <device>
+        <name>IPEM-RACK-MICINPUTS</name>
+        <default_name>BKLYN-02079f</default_name>
+        <instance_id>
+            <device_id>001DC102079F0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>RedNet 4</model_name>
+        <model_version>1.4.0</model_version>
+        <model_version_string>1.4.0</model_version_string>
+        <device_type>426B6C796E000000</device_type>
+        <device_type_string>Brooklyn</device_type_string>
+        <friendly_name>IPEM-RACK-MICINPUTS</friendly_name>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0"/>
+        <txchannel danteId="1"/>
+        <txchannel danteId="2"/>
+        <txchannel danteId="3"/>
+        <txchannel danteId="4"/>
+        <txchannel danteId="5"/>
+        <txchannel danteId="6"/>
+        <txchannel danteId="7"/>
+        <txchannel danteId="8"/>
+    </device>
+</preset>
