@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<preset version="2.0.0">
+    <name>IOSONO-BASIC</name>
+    <description>Dante Controller preset</description>
+    <device>
+        <name>IPEM-AMP-1</name>
+        <default_name>X-Series-0d945c</default_name>
+        <instance_id>
+            <device_id>001DC10D945C0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-1</friendly_name>
+        <preferred_master value="true"/>
+        <rxchannel danteId="1">
+            <subscribed_channel>Kick</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <subscribed_channel>Snqre</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <subscribed_channel>03</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <subscribed_channel>04</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <subscribed_channel>05</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <subscribed_channel>06</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <subscribed_channel>07</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <subscribed_channel>08</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9"/>
+        <rxchannel danteId="10"/>
+        <rxchannel danteId="11"/>
+        <rxchannel danteId="12"/>
+        <rxchannel danteId="13"/>
+        <rxchannel danteId="14"/>
+        <rxchannel danteId="15"/>
+        <rxchannel danteId="16"/>
+    </device>
+    <device>
+        <name>IPEM-AMP-2</name>
+        <default_name>X-Series-0d93fe</default_name>
+        <instance_id>
+            <device_id>001DC10D93FE0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-2</friendly_name>
+        <preferred_master value="false"/>
+        <rxchannel danteId="1">
+            <subscribed_channel>09</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <subscribed_channel>10</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <subscribed_channel>11</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <subscribed_channel>12</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <subscribed_channel>13</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <subscribed_channel>14</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <subscribed_channel>15</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <subscribed_channel>16</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9"/>
+        <rxchannel danteId="10"/>
+        <rxchannel danteId="11"/>
+        <rxchannel danteId="12"/>
+        <rxchannel danteId="13"/>
+        <rxchannel danteId="14"/>
+        <rxchannel danteId="15"/>
+        <rxchannel danteId="16"/>
+    </device>
+    <device>
+        <name>IPEM-AMP-3</name>
+        <default_name>X-Series-0d9448</default_name>
+        <instance_id>
+            <device_id>001DC10D94480000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-3</friendly_name>
+        <preferred_master value="false"/>
+        <rxchannel danteId="1">
+            <subscribed_channel>17</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <subscribed_channel>18</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <subscribed_channel>19</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <subscribed_channel>20</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <subscribed_channel>21</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <subscribed_channel>22</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <subscribed_channel>23</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <subscribed_channel>24</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9"/>
+        <rxchannel danteId="10"/>
+        <rxchannel danteId="11"/>
+        <rxchannel danteId="12"/>
+        <rxchannel danteId="13"/>
+        <rxchannel danteId="14"/>
+        <rxchannel danteId="15"/>
+        <rxchannel danteId="16"/>
+    </device>
+    <device>
+        <name>IPEM-AMP-4</name>
+        <default_name>X-Series-0d9454</default_name>
+        <instance_id>
+            <device_id>001DC10D94540000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-4</friendly_name>
+        <preferred_master value="false"/>
+        <rxchannel danteId="1">
+            <subscribed_channel>25</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <subscribed_channel>26</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <subscribed_channel>27</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <subscribed_channel>28</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <subscribed_channel>29</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <subscribed_channel>30</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <subscribed_channel>31</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <subscribed_channel>32</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9"/>
+        <rxchannel danteId="10"/>
+        <rxchannel danteId="11"/>
+        <rxchannel danteId="12"/>
+        <rxchannel danteId="13"/>
+        <rxchannel danteId="14"/>
+        <rxchannel danteId="15"/>
+        <rxchannel danteId="16"/>
+    </device>
+    <device>
+        <name>IPEM-AMP-5</name>
+        <default_name>X-Series-0d9456</default_name>
+        <instance_id>
+            <device_id>001DC10D94560000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-5</friendly_name>
+        <preferred_master value="false"/>
+        <rxchannel danteId="1">
+            <subscribed_channel>33</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <subscribed_channel>34</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <subscribed_channel>35</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <subscribed_channel>36</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <subscribed_channel>37</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <subscribed_channel>38</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <subscribed_channel>39</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <subscribed_channel>40</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9"/>
+        <rxchannel danteId="10"/>
+        <rxchannel danteId="11"/>
+        <rxchannel danteId="12"/>
+        <rxchannel danteId="13"/>
+        <rxchannel danteId="14"/>
+        <rxchannel danteId="15"/>
+        <rxchannel danteId="16"/>
+    </device>
+    <device>
+        <name>IPEM-AMP-6</name>
+        <default_name>X-Series-0d9402</default_name>
+        <instance_id>
+            <device_id>001DC10D94020000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-6</friendly_name>
+        <preferred_master value="false"/>
+        <rxchannel danteId="1">
+            <subscribed_channel>41</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <subscribed_channel>42</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <subscribed_channel>43</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <subscribed_channel>44</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <subscribed_channel>45</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <subscribed_channel>46</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <subscribed_channel>47</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <subscribed_channel>48</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9"/>
+        <rxchannel danteId="10"/>
+        <rxchannel danteId="11"/>
+        <rxchannel danteId="12"/>
+        <rxchannel danteId="13"/>
+        <rxchannel danteId="14"/>
+        <rxchannel danteId="15"/>
+        <rxchannel danteId="16"/>
+    </device>
+    <device>
+        <name>IPEM-AMP-7</name>
+        <default_name>X-Series-0d9452</default_name>
+        <instance_id>
+            <device_id>001DC10D94520000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-7</friendly_name>
+        <preferred_master value="false"/>
+        <rxchannel danteId="1">
+            <subscribed_channel>49</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <subscribed_channel>50</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <subscribed_channel>51</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <subscribed_channel>52</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5">
+            <subscribed_channel>53</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="6">
+            <subscribed_channel>54</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="7">
+            <subscribed_channel>55</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="8">
+            <subscribed_channel>56</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="9"/>
+        <rxchannel danteId="10"/>
+        <rxchannel danteId="11"/>
+        <rxchannel danteId="12"/>
+        <rxchannel danteId="13"/>
+        <rxchannel danteId="14"/>
+        <rxchannel danteId="15"/>
+        <rxchannel danteId="16"/>
+    </device>
+    <device>
+        <name>IPEM-AMP-8-MONITORS</name>
+        <default_name>X-Series-0dd068</default_name>
+        <instance_id>
+            <device_id>001DC10DD0680000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-8-MONITORS</friendly_name>
+        <preferred_master value="false"/>
+        <rxchannel danteId="1">
+            <subscribed_channel>57</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <subscribed_channel>58</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3"/>
+        <rxchannel danteId="4"/>
+        <rxchannel danteId="5"/>
+        <rxchannel danteId="6"/>
+        <rxchannel danteId="7"/>
+        <rxchannel danteId="8"/>
+        <rxchannel danteId="9"/>
+        <rxchannel danteId="10"/>
+        <rxchannel danteId="11"/>
+        <rxchannel danteId="12"/>
+        <rxchannel danteId="13"/>
+        <rxchannel danteId="14"/>
+        <rxchannel danteId="15"/>
+        <rxchannel danteId="16"/>
+    </device>
+    <device>
+        <name>IPEM-AMP-9-subs</name>
+        <default_name>X-Series-0dcfe6</default_name>
+        <instance_id>
+            <device_id>001DC10DCFE60000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>506F776572736674</manufacturer_id>
+        <manufacturer_name>Powersoft</manufacturer_name>
+        <model_id>0000000700000003</model_id>
+        <model_name>8CH Series</model_name>
+        <model_version>1.0.0</model_version>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>IPEM-AMP-9-subs</friendly_name>
+        <preferred_master value="false"/>
+        <rxchannel danteId="1">
+            <subscribed_channel>59</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2">
+            <subscribed_channel>60</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3">
+            <subscribed_channel>61</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4">
+            <subscribed_channel>62</subscribed_channel>
+            <subscribed_device>RN6-1</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="5"/>
+        <rxchannel danteId="6"/>
+        <rxchannel danteId="7"/>
+        <rxchannel danteId="8"/>
+        <rxchannel danteId="9"/>
+        <rxchannel danteId="10"/>
+        <rxchannel danteId="11"/>
+        <rxchannel danteId="12"/>
+        <rxchannel danteId="13"/>
+        <rxchannel danteId="14"/>
+        <rxchannel danteId="15"/>
+        <rxchannel danteId="16"/>
+    </device>
+    <device>
+        <name>RN6-1</name>
+        <default_name>BKLYN-II-04520a</default_name>
+        <instance_id>
+            <device_id>001DC104520A0000</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>466F637573726974</manufacturer_id>
+        <manufacturer_name>Focusrite Audio Engineering Ltd</manufacturer_name>
+        <model_id>0000000000000001</model_id>
+        <model_name>RedNet 6</model_name>
+        <model_version>2.6.0</model_version>
+        <model_version_string>2.6.0</model_version_string>
+        <device_type>426B6C796E320000</device_type>
+        <device_type_string>Brooklyn II</device_type_string>
+        <friendly_name>RN6-1</friendly_name>
+        <preferred_master value="false"/>
+        <rxchannel danteId="1"/>
+        <rxchannel danteId="2"/>
+        <rxchannel danteId="3"/>
+        <rxchannel danteId="4"/>
+        <rxchannel danteId="5"/>
+        <rxchannel danteId="6"/>
+        <rxchannel danteId="7"/>
+        <rxchannel danteId="8"/>
+        <rxchannel danteId="9"/>
+        <rxchannel danteId="10"/>
+        <rxchannel danteId="11"/>
+        <rxchannel danteId="12"/>
+        <rxchannel danteId="13"/>
+        <rxchannel danteId="14"/>
+        <rxchannel danteId="15"/>
+        <rxchannel danteId="16"/>
+        <rxchannel danteId="17"/>
+        <rxchannel danteId="18"/>
+        <rxchannel danteId="19"/>
+        <rxchannel danteId="20"/>
+        <rxchannel danteId="21"/>
+        <rxchannel danteId="22"/>
+        <rxchannel danteId="23"/>
+        <rxchannel danteId="24"/>
+        <rxchannel danteId="25"/>
+        <rxchannel danteId="26"/>
+        <rxchannel danteId="27"/>
+        <rxchannel danteId="28"/>
+        <rxchannel danteId="29"/>
+        <rxchannel danteId="30"/>
+        <rxchannel danteId="31"/>
+        <rxchannel danteId="32"/>
+        <rxchannel danteId="33"/>
+        <rxchannel danteId="34"/>
+        <rxchannel danteId="35"/>
+        <rxchannel danteId="36"/>
+        <rxchannel danteId="37"/>
+        <rxchannel danteId="38"/>
+        <rxchannel danteId="39"/>
+        <rxchannel danteId="40"/>
+        <rxchannel danteId="41"/>
+        <rxchannel danteId="42"/>
+        <rxchannel danteId="43"/>
+        <rxchannel danteId="44"/>
+        <rxchannel danteId="45"/>
+        <rxchannel danteId="46"/>
+        <rxchannel danteId="47"/>
+        <rxchannel danteId="48"/>
+        <rxchannel danteId="49"/>
+        <rxchannel danteId="50"/>
+        <rxchannel danteId="51"/>
+        <rxchannel danteId="52"/>
+        <rxchannel danteId="53"/>
+        <rxchannel danteId="54"/>
+        <rxchannel danteId="55"/>
+        <rxchannel danteId="56"/>
+        <rxchannel danteId="57"/>
+        <rxchannel danteId="58"/>
+        <rxchannel danteId="59"/>
+        <rxchannel danteId="60"/>
+        <rxchannel danteId="61"/>
+        <rxchannel danteId="62"/>
+        <rxchannel danteId="63"/>
+        <rxchannel danteId="64"/>
+    </device>
+</preset>
